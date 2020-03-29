@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Spinner growing small</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Smaller growing spinner that can quickly be used within other components.</Description>
+      <Shortcut>b-spinner-growing-sm</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>status</ID>
+          <ToolTip>The spinner accessibility status</ToolTip>
+          <Default>Loading...</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <div class="spinner-grow spinner-grow-sm" role="status">
+          <span class="sr-only">$status$</span>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
