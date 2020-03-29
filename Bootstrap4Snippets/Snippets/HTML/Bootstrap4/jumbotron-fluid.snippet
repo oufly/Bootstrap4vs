@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Jumbotron Fluid</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Jumbotron that occupies the entire horizontal space of its parent.</Description>
+      <Shortcut>b-jumbotron-fluid</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>heading</ID>
+          <ToolTip>The heading text for the jumbotron</ToolTip>
+          <Default>Jumbotron heading</Default>
+        </Literal>
+        <Literal>
+          <ID>lead</ID>
+          <ToolTip>the lead text for the jumbotron</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the jumbotron</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+        <Literal>
+          <ID>button</ID>
+          <ToolTip>The button text for the jumbotron</ToolTip>
+          <Default>Learn more</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">$heading$</h1>
+            <p class="lead">$lead$</p>
+            <hr class="my-4">
+            <p>$content$</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">$button$</a>
+          </div>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
