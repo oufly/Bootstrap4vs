@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Progress multiple</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Progress with multiple progress bars.</Description>
+      <Shortcut>b-progress-multiple</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>The value of the progress bar</ToolTip>
+          <Default>50</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: $value$%" aria-valuenow="$value$" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-success" role="progressbar" style="width: $value$%" aria-valuenow="$value$" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: $value$%" aria-valuenow="$value$" aria-valuemin="0" aria-valuemax="100"></div> 
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
