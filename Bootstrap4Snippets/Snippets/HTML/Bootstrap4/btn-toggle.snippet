@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Button toggle</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Button toggle.</Description>
+      <Shortcut>b-btn-toggle</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The button text</ToolTip>
+          <Default>Text</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+          $text$
+        </button>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
