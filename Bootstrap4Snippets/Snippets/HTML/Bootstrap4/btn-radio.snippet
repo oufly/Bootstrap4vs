@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Button radio</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Button radio.</Description>
+      <Shortcut>b-btn-radio</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text1</ID>
+          <ToolTip>The button1 text</ToolTip>
+          <Default>Radio1</Default>
+        </Literal>
+        <Literal>
+          <ID>text2</ID>
+          <ToolTip>The button2 text</ToolTip>
+          <Default>Radio2</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" checked> $text1$
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2"> $text2$
+          </label>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
