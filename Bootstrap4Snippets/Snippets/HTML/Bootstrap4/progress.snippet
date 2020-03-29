@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Progress</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Progress bar component.</Description>
+      <Shortcut>b-progress</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>The value of the progress</ToolTip>
+          <Default>50</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: $value$%" aria-valuenow="$value$" aria-valuemin="0" aria-valuemax="100">
+            $value$%
+          </div>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
