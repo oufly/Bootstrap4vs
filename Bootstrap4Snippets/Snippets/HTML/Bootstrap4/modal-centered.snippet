@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Modal centered</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Modal vertically centered.</Description>
+      <Shortcut>b-modal-centered</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The modal id</ToolTip>
+          <Default>myModal</Default>
+        </Literal>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>Title of the modal</ToolTip>
+          <Default>Modal title</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <div class="modal fade" id="$id$" tabindex="-1" role="dialog" aria-labelledby="$id$-label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="$id$Title">$title$</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- Modal content here-->$end$
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
