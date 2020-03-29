@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Button group large</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Button group of large size.</Description>
+      <Shortcut>b-btn-group-lg</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text1</ID>
+          <ToolTip>Button1 text</ToolTip>
+          <Default>Button1</Default>
+        </Literal>
+        <Literal>
+          <ID>text2</ID>
+          <ToolTip>Button2 text</ToolTip>
+          <Default>Button2</Default>
+        </Literal>
+        <Literal>
+          <ID>text3</ID>
+          <ToolTip>Button3 text</ToolTip>
+          <Default>Button3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="btn-group btn-group-lg" role="group" aria-label="Button group">
+          <button type="button" class="btn btn-secondary">$text1$</button>
+          <button type="button" class="btn btn-secondary">$text2$</button>
+          <button type="button" class="btn btn-secondary">$text3$</button>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
