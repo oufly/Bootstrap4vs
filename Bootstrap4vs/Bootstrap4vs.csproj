@@ -13,8 +13,8 @@
     <ProjectGuid>{ABAE6D94-8722-4CA1-AAF3-E88D60874455}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bootstrap4Snippets</RootNamespace>
-    <AssemblyName>Bootstrap4Snippets</AssemblyName>
+    <RootNamespace>Bootstrap4vs</RootNamespace>
+    <AssemblyName>Bootstrap4vs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -47,145 +47,179 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bootstrap4Snippets.pkgdef">
+    <Content Include="Bootstrap4vs.pkgdef">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\alert.snippet">
+    <Content Include="Snippets\Bootstrap4vs\alert\alert.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\badge.snippet">
+    <Content Include="Snippets\Bootstrap4vs\badge\badge.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\breadcrumb.snippet">
+    <Content Include="Snippets\Bootstrap4vs\breadcrumb\breadcrumb.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\template.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
+    <Content Include="Snippets\Bootstrap4vs\template\template.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-scrollable.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-scrollable.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-sm.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-lg.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-xl.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-xl.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-static-backdrop.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-static-backdrop.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\modal-centered.snippet">
+    <Content Include="Snippets\Bootstrap4vs\modal\modal-centered.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\jumbotron.snippet">
+    <Content Include="Snippets\Bootstrap4vs\jumbotron\jumbotron.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\jumbotron-fluid.snippet">
+    <Content Include="Snippets\Bootstrap4vs\jumbotron\jumbotron-fluid.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\progress.snippet">
+    <Content Include="Snippets\Bootstrap4vs\progress\progress.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\progress-multiple.snippet">
+    <Content Include="Snippets\Bootstrap4vs\progress\progress-multiple.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\progress-animated.snippet">
+    <Content Include="Snippets\Bootstrap4vs\progress\progress-animated.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\spinner.snippet">
+    <Content Include="Snippets\Bootstrap4vs\spinner\spinner.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\spinner-growing.snippet">
+    <Content Include="Snippets\Bootstrap4vs\spinner\spinner-growing.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\spinner-sm.snippet">
+    <Content Include="Snippets\Bootstrap4vs\spinner\spinner-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\spinner-growing-sm.snippet">
+    <Content Include="Snippets\Bootstrap4vs\spinner\spinner-growing-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\pagination.snippet">
+    <Content Include="Snippets\Bootstrap4vs\pagination\pagination.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-outline.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-outline.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-sm.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-lg.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-block.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-block.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-toggle.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-toggle.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-check.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-check.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-radio.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn\btn-radio.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-group.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn-group\btn-group.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-group-sm.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn-group\btn-group-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-group-lg.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn-group\btn-group-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-group-vertical.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn-group\btn-group-vertical.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\btn-toolbar.snippet">
+    <Content Include="Snippets\Bootstrap4vs\btn-group\btn-toolbar.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
