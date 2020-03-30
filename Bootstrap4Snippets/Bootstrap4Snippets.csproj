@@ -51,139 +51,139 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\alert.snippet">
+    <Content Include="Snippets\alert.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\badge.snippet">
+    <Content Include="Snippets\badge.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\breadcrumb.snippet">
+    <Content Include="Snippets\breadcrumb.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\template.snippet">
+    <Content Include="Snippets\template.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal.snippet">
+    <Content Include="Snippets\modal.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-scrollable.snippet">
+    <Content Include="Snippets\modal-scrollable.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-sm.snippet">
+    <Content Include="Snippets\modal-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-lg.snippet">
+    <Content Include="Snippets\modal-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-xl.snippet">
+    <Content Include="Snippets\modal-xl.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-static-backdrop.snippet">
+    <Content Include="Snippets\modal-static-backdrop.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\modal-centered.snippet">
+    <Content Include="Snippets\modal-centered.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\jumbotron.snippet">
+    <Content Include="Snippets\jumbotron.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\jumbotron-fluid.snippet">
+    <Content Include="Snippets\jumbotron-fluid.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\progress.snippet">
+    <Content Include="Snippets\progress.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\progress-multiple.snippet">
+    <Content Include="Snippets\progress-multiple.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\progress-animated.snippet">
+    <Content Include="Snippets\progress-animated.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\spinner.snippet">
+    <Content Include="Snippets\spinner.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\spinner-growing.snippet">
+    <Content Include="Snippets\spinner-growing.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\spinner-sm.snippet">
+    <Content Include="Snippets\spinner-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\spinner-growing-sm.snippet">
+    <Content Include="Snippets\spinner-growing-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\pagination.snippet">
+    <Content Include="Snippets\pagination.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn.snippet">
+    <Content Include="Snippets\btn.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-outline.snippet">
+    <Content Include="Snippets\btn-outline.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-sm.snippet">
+    <Content Include="Snippets\btn-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-lg.snippet">
+    <Content Include="Snippets\btn-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-block.snippet">
+    <Content Include="Snippets\btn-block.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-toggle.snippet">
+    <Content Include="Snippets\btn-toggle.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-check.snippet">
+    <Content Include="Snippets\btn-check.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-radio.snippet">
+    <Content Include="Snippets\btn-radio.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-group.snippet">
+    <Content Include="Snippets\btn-group.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-group-sm.snippet">
+    <Content Include="Snippets\btn-group-sm.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-group-lg.snippet">
+    <Content Include="Snippets\btn-group-lg.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-group-vertical.snippet">
+    <Content Include="Snippets\btn-group-vertical.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\HTML\Bootstrap4\btn-toolbar.snippet">
+    <Content Include="Snippets\btn-toolbar.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
