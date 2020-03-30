@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Card</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.</Description>
+      <Shortcut>b-card</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The title for the card</ToolTip>
+          <Default>Card title</Default>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the card</ToolTip>
+          <Default>Some quick example text to build on the card title and make up the bulk of the card's content.</Default>
+        </Literal>
+        <Literal>
+          <ID>button</ID>
+          <ToolTip>The button text for the card</ToolTip>
+          <Default>Go somewhere</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="card" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">$title$</h5>
+            <p class="card-text">$text$</p>
+            <a href="#" class="btn btn-primary">$button$</a>
+          </div>
+        </div>$end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
