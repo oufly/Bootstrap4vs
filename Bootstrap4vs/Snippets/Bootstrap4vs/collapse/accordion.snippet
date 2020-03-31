@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Accordion</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Accordion control using collapse behavior and cards.</Description>
+      <Shortcut>b-accordion</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the accordion</ToolTip>
+          <Default>myAccordion</Default>
+        </Literal>
+        
+        <Literal>
+          <ID>idCollapse1</ID>
+          <ToolTip>The id for the first collapse</ToolTip>
+          <Default>collapseOne</Default>
+        </Literal>
+        <Literal>
+          <ID>idCollapse2</ID>
+          <ToolTip>The id for the second collapse</ToolTip>
+          <Default>collapseTwo</Default>
+        </Literal>
+
+        <Literal>
+          <ID>heading1</ID>
+          <ToolTip>The heading for the first collapse</ToolTip>
+          <Default>Item #1</Default>
+        </Literal>
+        <Literal>
+          <ID>heading2</ID>
+          <ToolTip>The heading for the second collapse</ToolTip>
+          <Default>Item #2</Default>
+        </Literal>
+   
+        
+        <Literal>
+          <ID>content1</ID>
+          <ToolTip>The content for the first collapse</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+        <Literal>
+          <ID>content2</ID>
+          <ToolTip>The content for the second collapse</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="accordion" id="$id$">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#$idCollapse1$" aria-expanded="true" aria-controls="collapseOne">
+                $heading1$
+              </button>
+              </h2>
+            </div>
+            <div id="$idCollapse1$" class="collapse show" aria-labelledby="$heading1$" data-parent="#$id$">
+              <div class="card-body">
+                $content1$
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#$idCollapse2$" aria-expanded="false" aria-controls="collapseTwo">
+                  $heading2$
+                </button>
+              </h2>
+            </div>
+            <div id="$idCollapse2$" class="collapse" aria-labelledby="$heading2$" data-parent="#$id$">
+              <div class="card-body">
+                $content2$
+              </div>
+            </div>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
