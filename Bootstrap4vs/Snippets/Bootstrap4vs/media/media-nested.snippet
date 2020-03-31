@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Media nested</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Media object with nested medias.</Description>
+      <Shortcut>b-media-nested</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>heading</ID>
+          <ToolTip>The heading for the media</ToolTip>
+          <Default>Media heading</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the media</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+        <Literal>
+          <ID>heading-child</ID>
+          <ToolTip>The heading for the child media</ToolTip>
+          <Default>Media child heading</Default>
+        </Literal>
+        <Literal>
+          <ID>content-child</ID>
+          <ToolTip>The content for the child media</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="media">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">$heading$</h5>
+            $content$
+            <!--Child Media.-->
+            <div class="media mt-3">
+              <a class="mr-3" href="#">
+                <img src="..." class="mr-3" alt="...">
+              </a>
+              <div class="media-body">
+                <h5 class="mt-0">$heading-child$</h5>
+                $content-child$
+              </div>
+            </div>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
