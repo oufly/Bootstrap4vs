@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Collapse</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</Description>
+      <Shortcut>b-collapse</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the collapse</ToolTip>
+          <Default>myCollapse</Default>
+        </Literal>
+        <Literal>
+          <ID>link</ID>
+          <ToolTip>The text for the link</ToolTip>
+          <Default>Link</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the collapse</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#$id$" role="button" aria-expanded="false" aria-controls="$id$">
+            $link$
+          </a>
+        </p>
+        <div class="collapse" id="$id$">
+          <div class="card card-body">
+            $content$
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
