@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Media</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Bootstrap’s media object to construct highly repetitive components like blog comments, tweets, and the like.</Description>
+      <Shortcut>b-media</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>heading</ID>
+          <ToolTip>The heading for the media</ToolTip>
+          <Default>Media heading</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the media</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="media">
+          <!--Add .align-self-center or .align-self-end to the img, to align it in middle or end of the .media-body content.-->
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">$heading$</h5>
+            $content$
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
