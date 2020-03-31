@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Popover</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Add bootstrap popovers, like those found in iOS, to any element on your site.</Description>
+      <Shortcut>b-popover</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The title for the popover</ToolTip>
+          <Default>Popover title</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the popover</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+        <Literal>
+          <ID>btnText</ID>
+          <ToolTip>The content for the button</ToolTip>
+          <Default>Click to toggle popover</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<button type="button" class="btn btn-primary" data-toggle="popover" 
+        title="$title$" data-content="$content$">
+          $btnText$
+        </button>
+        <!--Use $$('[data-toggle="popover"]').popover() to initialize all popovers.-->$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
