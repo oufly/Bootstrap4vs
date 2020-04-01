@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Input group multiple inputs</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Input group with multiple inputs.</Description>
+      <Shortcut>b-input-group-multiple-inputs</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the Addon</ToolTip>
+          <Default>exampleAddon</Default>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the Addon</ToolTip>
+          <Default>Addon text</Default>
+        </Literal>
+        <Literal>
+          <ID>placeholder1</ID>
+          <ToolTip>The placeholder for the input1</ToolTip>
+          <Default>Example placeholder1</Default>
+        </Literal>
+        <Literal>
+          <ID>placeholder2</ID>
+          <ToolTip>The placeholder for the input2</ToolTip>
+          <Default>Example placeholder2</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">$text$</span>
+          </div>
+          <input type="text" class="form-control" placeholder="$placeholder1$" aria-label="$placeholder1$">
+          <input type="text" class="form-control" placeholder="$placeholder2$" aria-label="$placeholder2$">
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
