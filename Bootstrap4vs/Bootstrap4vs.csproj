@@ -281,42 +281,42 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-input.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-input.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-select.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-select.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-select-multiple.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-select-multiple.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-textarea.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-textarea.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-file.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-file.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-range.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-range.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-check.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-check.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\form-control-radio.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\form-control-radio.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
