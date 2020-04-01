@@ -331,37 +331,37 @@
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-check.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-check.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-radio.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-radio.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-switch.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-switch.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-select.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-select.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-range.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-range.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-file.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-file.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\form\control\form-custom-select-multiple.snippet">
+    <Content Include="Snippets\Bootstrap4vs\form\control\custom\form-custom-select-multiple.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
