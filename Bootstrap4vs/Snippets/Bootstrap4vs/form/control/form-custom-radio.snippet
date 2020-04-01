@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Form custom radio</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Form custom radio control.</Description>
+      <Shortcut>b-form-custom-radio</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>The name for the control</ToolTip>
+          <Default>exampleRadios</Default>
+        </Literal>
+        
+        <Literal>
+          <ID>id1</ID>
+          <ToolTip>The id for the radio1</ToolTip>
+          <Default>exampleRadio1</Default>
+        </Literal>
+        <Literal>
+          <ID>id2</ID>
+          <ToolTip>The id for the radio2</ToolTip>
+          <Default>exampleRadio2</Default>
+        </Literal>
+
+        <Literal>
+          <ID>value1</ID>
+          <ToolTip>The value for the radio1</ToolTip>
+          <Default>option1</Default>
+        </Literal>
+        <Literal>
+          <ID>value2</ID>
+          <ToolTip>The value for the radio2</ToolTip>
+          <Default>option2</Default>
+        </Literal>
+
+        <Literal>
+          <ID>label1</ID>
+          <ToolTip>The label for the radio1</ToolTip>
+          <Default>Example label1</Default>
+        </Literal>
+        <Literal>
+          <ID>label2</ID>
+          <ToolTip>The label for the radio2</ToolTip>
+          <Default>Example label2</Default>
+        </Literal>
+        
+
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="custom-control custom-radio">
+          <input class="custom-control-input" type="radio" name="$name$" id="$id1$" value="$value1$" checked>
+          <label class="custom-control-label" for="$id1$">
+            $label1$
+          </label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input class="custom-control-input" type="radio" name="$name$" id="$id2$" value="$value2$">
+          <label class="custom-control-label" for="$id2$">
+            $label2$
+          </label>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
