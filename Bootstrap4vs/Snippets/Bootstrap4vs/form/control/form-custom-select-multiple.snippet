@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Form custom select multiple</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Form custom select multiple control.</Description>
+      <Shortcut>b-form-custom-select-multiple</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the control</ToolTip>
+          <Default>exampleSelectMultiple</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the select</ToolTip>
+          <Default>Example label</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="form-group">
+          <label for="$id$">$label$</label>
+          <select multiple class="custom-select" id="$id$">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
