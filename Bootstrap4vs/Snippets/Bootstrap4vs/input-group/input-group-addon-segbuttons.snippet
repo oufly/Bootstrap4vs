@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Input group segbuttons addon</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Input group with segmented-buttons addon.</Description>
+      <Shortcut>b-input-group-addon-segbuttons</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the segbuttons</ToolTip>
+          <Default>Segbuttons text</Default>
+        </Literal>
+        <Literal>
+          <ID>placeholder</ID>
+          <ToolTip>The placeholder for the input</ToolTip>
+          <Default>Example placeholder</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button type="button" class="btn btn-outline-secondary">$text$</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action1</a>
+              <a class="dropdown-item" href="#">Action2</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Action3</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="$placeholder$" aria-label="$placeholder$">
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
