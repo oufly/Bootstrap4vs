@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Form control input</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Form control input.</Description>
+      <Shortcut>b-form-control-input</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the control</ToolTip>
+          <Default>exampleInput</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the input</ToolTip>
+          <Default>Example label</Default>
+        </Literal>
+        <Literal>
+          <ID>inputType</ID>
+          <ToolTip>The type for the input</ToolTip>
+          <Default>text</Default>
+        </Literal>
+        <Literal>
+          <ID>placeholder</ID>
+          <ToolTip>The placeholder for the input</ToolTip>
+          <Default>Example input placeholder</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="form-group">
+          <label for="$id$">$label$</label>
+          <input type="$inputType$" class="form-control" id="$id$" placeholder="$placeholder$">
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -281,6 +281,11 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
+    <Content Include="Snippets\Bootstrap4vs\form\form-control-input.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
