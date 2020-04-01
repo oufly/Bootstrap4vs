@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Input group button addon</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Input group with button addon.</Description>
+      <Shortcut>b-input-group-addon-button</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the Addon</ToolTip>
+          <Default>exampleAddon</Default>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the button</ToolTip>
+          <Default>Button text</Default>
+        </Literal>
+        <Literal>
+          <ID>placeholder</ID>
+          <ToolTip>The placeholder for the input</ToolTip>
+          <Default>Example placeholder</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="button" id="$id$">$text$</button>
+          </div>
+          <input type="text" class="form-control" placeholder="$placeholder$" aria-label="$placeholder$" aria-describedby="$id$">
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
