@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Form custom switch control</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Form custom switch control.</Description>
+      <Shortcut>b-form-custom-switch</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the control</ToolTip>
+          <Default>exampleCheck</Default>
+        </Literal>
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>The value for the control</ToolTip>
+          <Default>exampleValue</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the check</ToolTip>
+          <Default>Example label</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="custom-control custom-switch">
+          <input class="custom-control-input" type="checkbox" value="$value$" id="$id$">
+          <label class="custom-control-label" for="$id$">
+            $label$
+          </label>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
