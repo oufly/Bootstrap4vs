@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Form control textarea</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Form control textarea.</Description>
+      <Shortcut>b-form-control-textarea</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the control</ToolTip>
+          <Default>exampleInput</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the textarea</ToolTip>
+          <Default>Example label</Default>
+        </Literal>
+        <Literal>
+          <ID>rows</ID>
+          <ToolTip>The rows number for the textarea</ToolTip>
+          <Default>3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="form-group">
+          <label for="$id$">$label$</label>
+          <textarea class="form-control" id="$id$" rows="$rows$"></textarea>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
