@@ -15,14 +15,12 @@
         <Literal>
           <ID>content</ID>
           <ToolTip>The content for the alert</ToolTip>
-          <Default>
-            <![CDATA[A closable alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.]]>
-          </Default>
+          <Default>A closable alert with an example link. Give it a click if you like.</Default>
         </Literal>
       </Declarations>
       <Code Language="HTML">
         <![CDATA[<div class="alert alert-primary alert-dismissible fade show" role="alert">
-          $content$
+            $content$
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
