@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Badge navbar</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</Description>
+      <Shortcut>b-navbar</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>brand</ID>
+          <ToolTip>The brand for the navbar</ToolTip>
+          <Default>My Brand</Default>
+        </Literal>
+        <Literal>
+          <ID>idCollapse</ID>
+          <ToolTip>The id for the collapse navbar</ToolTip>
+          <Default>navbarContent</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- To change the nav placement use .fixed-top,.fixed-bottom,.sticky-top -->
+          <a class="navbar-brand" href="#">$brand$</a>
+          <!-- <a class="navbar-brand" href="#">
+                <img src="..." class="d-inline-block align-top" width="30" height="30" alt="...">
+                $brand$</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#$idCollapse$" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="$idCollapse$">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+        
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            
+            <span class="navbar-text">
+              Some text
+            </span>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
