@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Alert closable</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Alert with close button to dismiss it.</Description>
+      <Shortcut>b-alert-closable</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the alert</ToolTip>
+          <Default>
+            <![CDATA[A closable alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.]]>
+          </Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="alert alert-primary alert-dismissible fade show" role="alert">
+          $content$
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
