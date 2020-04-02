@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Dropdown link</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Dropdown triggered from a link.</Description>
+      <Shortcut>b-dropdown-link</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the dropdown</ToolTip>
+          <Default>dropdownMenuLink</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the dropdown</ToolTip>
+          <Default>Dropdown link</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="$id$" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            $label$
+          </a>
+          <div class="dropdown-menu" aria-labelledby="$id$">
+            <a class="dropdown-item" href="#">Action1</a>
+            <a class="dropdown-item" href="#">Action2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action3</a>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
