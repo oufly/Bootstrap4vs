@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Dropdown</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.</Description>
+      <Shortcut>b-dropdown</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the dropdown</ToolTip>
+          <Default>dropdownMenuButton</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the dropdown</ToolTip>
+          <Default>Dropdown button</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="$id$" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            $label$
+          </button>
+          <div class="dropdown-menu" aria-labelledby="$id$">
+            <a class="dropdown-item" href="#">Action1</a>
+            <a class="dropdown-item" href="#">Action2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action3</a>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
