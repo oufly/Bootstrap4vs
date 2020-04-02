@@ -15,14 +15,15 @@
         <Literal>
           <ID>content</ID>
           <ToolTip>The content for the alert</ToolTip>
-          <Default>A simple primary alert—check it out!</Default>
+          <Default>
+            <![CDATA[A simple alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.]]>
+          </Default>
         </Literal>
       </Declarations>
       <Code Language="HTML">
         <![CDATA[<div class="alert alert-primary" role="alert">
           $content$
-        </div>$end$
-        ]]>
+        </div>$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
