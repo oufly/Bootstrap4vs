@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Dropdown toggle split</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Dropdown with the addition of .dropdown-toggle-split for proper spacing around the dropdown caret.</Description>
+      <Shortcut>b-dropdown-toggle-split</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <ToolTip>The id for the dropdown</ToolTip>
+          <Default>dropdownMenuButton</Default>
+        </Literal>
+        <Literal>
+          <ID>label</ID>
+          <ToolTip>The label for the dropdown</ToolTip>
+          <Default>Dropdown button</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="btn-group">
+          <button class="btn btn-secondary" type="button" id="$id$">
+            $label$
+          </button>
+          <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="$id$">
+            <a class="dropdown-item" href="#">Action1</a>
+            <a class="dropdown-item" href="#">Action2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action3</a>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
