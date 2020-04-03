@@ -526,10 +526,10 @@
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\list-group\list-group-link.snippet">
+    <Content Include="Snippets\Bootstrap4vs\list-group\list-group-links.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
