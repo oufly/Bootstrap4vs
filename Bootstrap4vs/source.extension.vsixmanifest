@@ -5,6 +5,7 @@
         <DisplayName>Bootstrap4vs</DisplayName>
         <Description>Empty VSIX Project.</Description>
         <License>LICENSE.txt</License>
+        <PreviewImage>preview.png</PreviewImage>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
