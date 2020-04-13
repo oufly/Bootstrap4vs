@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Card horizontal</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Card horizontal aligned.</Description>
+      <Shortcut>b-card-horizontal</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The title for the card</ToolTip>
+          <Default>Card title</Default>
+        </Literal>
+        <Literal>
+          <ID>subtitle</ID>
+          <ToolTip>The subtitle for the card</ToolTip>
+          <Default>Card subtitle</Default>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the card</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">$title$</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$subtitle$</h6>
+                <p class="card-text">$text$</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="btn btn-primary">Card button</a>
+              </div>
+            </div>
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

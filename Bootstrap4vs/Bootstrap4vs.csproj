@@ -556,6 +556,11 @@
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\Bootstrap4vs\card\card-horizontal.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
