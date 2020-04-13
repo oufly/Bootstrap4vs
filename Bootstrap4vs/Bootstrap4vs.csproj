@@ -561,17 +561,17 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\card\card-group.snippet">
+    <Content Include="Snippets\Bootstrap4vs\card\card-group\card-group.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\card\card-group-grid.snippet">
+    <Content Include="Snippets\Bootstrap4vs\card\card-group\card-group-grid.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
     </Content>
-    <Content Include="Snippets\Bootstrap4vs\card\card-group-masonry.snippet">
+    <Content Include="Snippets\Bootstrap4vs\card\card-group\card-group-masonry.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Snippets\Bootstrap4vs</VSIXSubPath>
       <IncludeInVSIX>true</IncludeInVSIX>
