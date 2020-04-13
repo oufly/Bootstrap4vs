@@ -4,6 +4,7 @@
         <Identity Id="Bootstrap4vs.7285fc5e-5f57-4daf-b748-a5deb7e7ceb5" Version="1.0" Language="en-US" Publisher="Ouali Amar" />
         <DisplayName>Bootstrap4vs</DisplayName>
         <Description>Empty VSIX Project.</Description>
+        <License>LICENSE.txt</License>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
