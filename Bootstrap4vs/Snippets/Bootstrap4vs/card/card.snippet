@@ -18,23 +18,26 @@
           <Default>Card title</Default>
         </Literal>
         <Literal>
-          <ID>text</ID>
-          <ToolTip>The text for the card</ToolTip>
-          <Default>Some quick example text to build on the card title and make up the bulk of the card's content.</Default>
+          <ID>subtitle</ID>
+          <ToolTip>The subtitle for the card</ToolTip>
+          <Default>Card subtitle</Default>
         </Literal>
         <Literal>
-          <ID>button</ID>
-          <ToolTip>The button text for the card</ToolTip>
-          <Default>Go somewhere</Default>
+          <ID>text</ID>
+          <ToolTip>The text for the card</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
         </Literal>
       </Declarations>
       <Code Language="HTML">
         <![CDATA[<div class="card" style="width: 18rem;">
-          <img src="" class="card-img-top" alt="">
+          <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+          <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">$title$</h5>
+            <h6 class="card-subtitle mb-2 text-muted">$subtitle$</h6>
             <p class="card-text">$text$</p>
-            <a href="#" class="btn btn-primary">$button$</a>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="btn btn-primary">Card button</a>
           </div>
         </div>$end$]]>
       </Code>
