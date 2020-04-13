@@ -338,6 +338,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-/Tester
-# exclude everything
-Assets/
+/Assets/
