@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Card with header and footer</Title>
+      <Author>Ouali Amar</Author>
+      <Description>Card with header and footer.</Description>
+      <Shortcut>b-card-header-footer</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>header</ID>
+          <ToolTip>The content for the header</ToolTip>
+          <Default>Header</Default>
+        </Literal>
+        <Literal>
+          <ID>footer</ID>
+          <ToolTip>The content for the footer</ToolTip>
+          <Default>Footer</Default>
+        </Literal>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The title for the card</ToolTip>
+          <Default>Card title</Default>
+        </Literal>
+        <Literal>
+          <ID>subtitle</ID>
+          <ToolTip>The subtitle for the card</ToolTip>
+          <Default>Card subtitle</Default>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <ToolTip>The text for the card</ToolTip>
+          <Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="card" style="width: 18rem;">
+          <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+          <div class="card-header">
+            $header$
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">$title$</h5>
+            <h6 class="card-subtitle mb-2 text-muted">$subtitle$</h6>
+            <p class="card-text">$text$</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="btn btn-primary">Card button</a>
+          </div>
+          <div class="card-footer text-muted">
+            $footer$
+          </div>
+        </div>$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
