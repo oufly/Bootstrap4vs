@@ -10,7 +10,9 @@
         <Tags>snippets,twitter,bootstrap,bootstrap4, web, html</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0, 17.0)" />
+        <InstallationTarget Version="[14.0, 17.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[14.0, 17.0)" Id="Microsoft.VisualStudio.Enterprise" />
     </Installation>
     <Dependencies>
     </Dependencies>
@@ -18,6 +20,6 @@
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Bootstrap4vs.pkgdef" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[14.0, 17.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
