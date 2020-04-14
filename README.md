@@ -11,3 +11,5 @@ this extension covers absolutely all components of Bootstrap 4 with several exam
  
  -Versions: Community, Pro, Enterprise
   
+## How to install
+https://marketplace.visualstudio.com/items?itemName=ouali-amar.bootstrap4vs
