@@ -4,7 +4,9 @@
         <Identity Id="Bootstrap4vs.7285fc5e-5f57-4daf-b748-a5deb7e7ceb5" Version="1.0" Language="en-US" Publisher="Ouali Amar" />
         <DisplayName>Bootstrap4vs</DisplayName>
         <Description xml:space="preserve">+100 snippets of twitter Bootstrap 4 components for Visual Studio.</Description>
+        <MoreInfo>https://github.com/oufly/Bootstrap4vs</MoreInfo>
         <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/oufly/Bootstrap4vs</GettingStartedGuide>
         <Icon>logo.png</Icon>
         <PreviewImage>preview.png</PreviewImage>
         <Tags>snippets,twitter,bootstrap,bootstrap4,components ,web, html</Tags>
