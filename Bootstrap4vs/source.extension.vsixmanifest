@@ -7,7 +7,7 @@
         <License>LICENSE.txt</License>
         <Icon>logo.png</Icon>
         <PreviewImage>preview.png</PreviewImage>
-        <Tags>snippets,twitter,bootstrap,bootstrap4, web, html</Tags>
+        <Tags>snippets,twitter,bootstrap,bootstrap4,components ,web, html</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0, 17.0)" />
