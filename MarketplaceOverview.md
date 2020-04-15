@@ -6,4 +6,6 @@ This extension covers absolutely all components of Bootstrap 4 with several exam
 
 ![Preview](preview.png)
 
+![Demo.gif](Demo.gif)
+
 If you like this extension don't forget to leave a [review](https://marketplace.visualstudio.com/items?itemName=ouali-amar.bootstrap4vs&ssr=false#review-details).
