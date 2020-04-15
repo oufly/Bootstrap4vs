@@ -5,6 +5,8 @@ this extension covers absolutely all components of Bootstrap 4 with several exam
 
 ![Preview](https://github.com/oufly/Bootstrap4vs/raw/master/Bootstrap4vs/preview.png)
 
+![Demo](https://github.com/oufly/Bootstrap4vs/blob/master/Demo.gif)
+
 ## Supported Visual Studio versions
 
  -Products: VS 2015, 2017, 2019
