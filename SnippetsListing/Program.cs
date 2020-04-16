@@ -68,7 +68,9 @@ namespace SnippetsListing
                     }
                 }
             }
-            var html = SnippetsListToHtmlTable(components);
+
+            var html = "## Bootstrap4vs snippets list\n\n" + SnippetsListToHtmlTable(components);
+
             var path = $"{slnDir}\\SnippetsListing.md";
             File.WriteAllText(path, html);
 

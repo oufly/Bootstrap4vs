@@ -1,3 +1,5 @@
+## Bootstrap4vs snippets list
+
 <table>
 <tr><th>Component</th><th>Snippet</th><th>Shortcut</th><th>Description</th></tr>
 <tr><td rowspan="3"><a href="https://getbootstrap.com/docs/4.4/components/alerts/">Alert</a></td><td align="center">Alert closable</td><td nowrap align="center"><code>b-alert-closable</code></td><td><i>Alert with close button to dismiss it.</i></td></tr>
