@@ -59,6 +59,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\bootstrap-components.xml" />
     <Content Include="Snippets\Bootstrap4vs\alert\alert.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

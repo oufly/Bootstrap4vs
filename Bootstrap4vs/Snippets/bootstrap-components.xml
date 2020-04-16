@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Components>
+  <Component Name="Alert" Directory="alert" Url="https://getbootstrap.com/docs/4.4/components/alerts/"/>
+  <Component Name="Badge" Directory="badge" Url="https://getbootstrap.com/docs/4.4/components/badge/"/>
+  <Component Name="Breadcrumb" Directory="breadcrumb" Url="https://getbootstrap.com/docs/4.4/components/breadcrumb/"/>
+  <Component Name="Button" Directory="btn" Url="https://getbootstrap.com/docs/4.4/components/buttons/"/>
+  <Component Name="Button group" Directory="btn-group" Url="https://getbootstrap.com/docs/4.4/components/button-group/"/>
+  <Component Name="Card" Directory="card" Url="https://getbootstrap.com/docs/4.4/components/card/"/>
+  <Component Name="Carousel" Directory="carousel" Url="https://getbootstrap.com/docs/4.4/components/carousel/"/>
+  <Component Name="Collapse" Directory="collapse" Url="https://getbootstrap.com/docs/4.4/components/collapse/"/>
+  <Component Name="Dropdown" Directory="dropdown" Url="https://getbootstrap.com/docs/4.4/components/dropdowns/"/>
+  <Component Name="Form" Directory="form" Url="https://getbootstrap.com/docs/4.4/components/forms/"/>
+  <Component Name="Input group" Directory="input-group" Url="https://getbootstrap.com/docs/4.4/components/input-group/"/>
+  <Component Name="Jumbotron" Directory="jumbotron" Url="https://getbootstrap.com/docs/4.4/components/jumbotron/"/>
+  <Component Name="List group" Directory="list-group" Url="https://getbootstrap.com/docs/4.4/components/list-group/"/>
+  <Component Name="Media object" Directory="media" Url="https://getbootstrap.com/docs/4.4/components/media-object/"/>
+  <Component Name="Modal" Directory="modal" Url="https://getbootstrap.com/docs/4.4/components/modal/"/>
+  <Component Name="Nav" Directory="nav" Url="https://getbootstrap.com/docs/4.4/components/navs/"/>
+  <Component Name="Navbar" Directory="navbar" Url="https://getbootstrap.com/docs/4.4/components/navbar/"/>
+  <Component Name="Pagination" Directory="pagination" Url="https://getbootstrap.com/docs/4.4/components/pagination/"/>
+  <Component Name="Popover" Directory="popover" Url="https://getbootstrap.com/docs/4.4/components/popovers/"/>
+  <Component Name="Progress" Directory="progress" Url="https://getbootstrap.com/docs/4.4/components/progress/"/>
+  <Component Name="Scrollspy" Directory="scrollspy" Url="https://getbootstrap.com/docs/4.4/components/scrollspy/"/>
+  <Component Name="Spinner" Directory="spinner" Url="https://getbootstrap.com/docs/4.4/components/spinners/"/>
+  <Component Name="template" Directory="template" Url="https://getbootstrap.com/docs/4.4/getting-started/introduction/"/>
+  <Component Name="Toast" Directory="toast" Url="https://getbootstrap.com/docs/4.4/components/toasts/"/>
+  <Component Name="Tooltip" Directory="tooltip" Url="https://getbootstrap.com/docs/4.4/components/tooltips/"/>
+</Components>
