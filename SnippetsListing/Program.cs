@@ -11,69 +11,51 @@ namespace SnippetsListing
     {
         static void Main(string[] args)
         {
-            var slnDir = TryGetSolutionDirectoryInfo().FullName;
-            var snippetsDir = Path.Combine(slnDir, "Bootstrap4vs", "Snippets");
-            var componentsFilepath = Path.Combine(snippetsDir, "bootstrap-components.xml");
-            snippetsDir = Path.Combine(snippetsDir, "Bootstrap4vs");
-
-            var componentsDoc = XElement.Load(componentsFilepath);
-            List<BootstrapComponent> components = componentsDoc.Elements("Component")
-                 .Select(c => new BootstrapComponent
-                 {
-                     Name = (string)c.Attribute("Name"),
-                     Directory = (string)c.Attribute("Directory"),
-                     Url = (string)c.Attribute("Url")
-                 })
-                 .ToList<BootstrapComponent>();
-
-            foreach (var component in components)
+            try
             {
-                //Console.WriteLine($"Process {file}");
-                var componentDir = Path.Combine(snippetsDir, component.Directory);
-                foreach (string file in Directory.EnumerateFiles(componentDir, "*.snippet", SearchOption.AllDirectories))
+                var slnDir = TryGetSolutionDirectoryInfo().FullName;
+                if (slnDir == null) throw new DirectoryNotFoundException(".sln directory not found");
+
+                var snippetsRootDir = Path.Combine(slnDir, "Bootstrap4vs", "Snippets");
+                var componentsFilepath = Path.Combine(snippetsRootDir, "bootstrap-components.xml");
+                var snippetsDir = Path.Combine(snippetsRootDir, "Bootstrap4vs");
+
+                Console.WriteLine($"********** Processing Files **********");
+
+                var components = BootstrapComponent.GetComponentFromFile(componentsFilepath);
+
+                int snippetsCount = 0;
+                foreach (var component in components)
                 {
-                    //var snippetDoc = XElement.Load(file);
-                    //var s = snippetDoc.Elements().FirstOrDefault().Descendants("Header").ToList();
-                         //.Select(h => new Snippet
-                         //{
-                         //    Title = (string)h.Element("Name").Value,
-                         //    Shortcut = (string)h.Attribute("Directory"),
-                         //    Description = (string)h.Attribute("Url")
-                         //});
-
-
-                    using (XmlReader reader = XmlReader.Create(file))
+                    Console.WriteLine($"---------- {component.Name} ----------");
+                    var componentDir = Path.Combine(snippetsDir, component.Directory);
+                    foreach (string snippetFilepath in Directory.EnumerateFiles(componentDir, "*.snippet", SearchOption.AllDirectories))
                     {
-                        var snippet = new Snippet();
-                        component.Snippets.Add(snippet);
-                        while (reader.Read())
-                        {
-                            if (reader.IsStartElement())
-                            {
-                                //return only when you have START tag  
-                                switch (reader.Name.ToString())
-                                {
-                                    case "Title":
-                                        snippet.Title = reader.ReadString();
-                                        break;
-                                    case "Shortcut":
-                                        snippet.Shortcut = reader.ReadString();
-                                        break;
-                                    case "Description":
-                                        snippet.Description = reader.ReadString();
-                                        break;
-                                }
-                            }
-                        }
+                        Console.WriteLine($"{Path.GetFileName(snippetFilepath)}");
+                        component.Snippets.Add(Snippet.GetSnippetFromFile(snippetFilepath));
+                        snippetsCount++;
                     }
                 }
+                Console.WriteLine($"\n{snippetsCount} snippets");
+
+                Console.WriteLine("\n********** Extarting html **********");
+                var pageHeading = "## Bootstrap4vs snippets list\n\n";
+                var html = pageHeading + SnippetsListToHtmlTable(components);
+
+                Console.WriteLine("********** Writing html to file **********");
+                var path = $"{slnDir}\\SnippetsListing.md";
+                File.WriteAllText(path, html);
+
+                Console.WriteLine("\n\n********** Done **********");
             }
-
-            var html = "## Bootstrap4vs snippets list\n\n" + SnippetsListToHtmlTable(components);
-
-            var path = $"{slnDir}\\SnippetsListing.md";
-            File.WriteAllText(path, html);
-
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}\n{ex.StackTrace}");
+            }
+            finally
+            {
+                Console.ReadKey();
+            }
 
 
         }
@@ -87,6 +69,8 @@ namespace SnippetsListing
             }
             return directory;
         }
+       
+       
         public static string SnippetsListToHtmlTable(List<BootstrapComponent> components)
         {
             string newLine = Environment.NewLine;
@@ -121,6 +105,33 @@ namespace SnippetsListing
         public string Title { get; set; }
         public string Shortcut { get; set; }
         public string Description { get; set; }
+        public static Snippet GetSnippetFromFile(string snippetFilepath)
+        {
+            var snippet = new Snippet();
+            using (XmlReader reader = XmlReader.Create(snippetFilepath))
+            {
+
+                while (reader.Read())
+                {
+                    if (reader.IsStartElement())
+                    {
+                        switch (reader.Name.ToString())
+                        {
+                            case "Title":
+                                snippet.Title = reader.ReadString();
+                                break;
+                            case "Shortcut":
+                                snippet.Shortcut = reader.ReadString();
+                                break;
+                            case "Description":
+                                snippet.Description = reader.ReadString();
+                                break;
+                        }
+                    }
+                }
+            }
+            return snippet;
+        }
     }
     public class BootstrapComponent
     {
@@ -129,5 +140,18 @@ namespace SnippetsListing
         public string Url { get; set; }
         public int SnippetsCount { get; set; }
         public List<Snippet> Snippets { get; set; } = new List<Snippet>();
+        
+        public static List<BootstrapComponent> GetComponentFromFile(string componentsFilepath)
+        {
+            var componentsDoc = XElement.Load(componentsFilepath);
+            return componentsDoc.Elements("Component")
+                 .Select(c => new BootstrapComponent
+                 {
+                     Name = (string)c.Attribute("Name"),
+                     Directory = (string)c.Attribute("Directory"),
+                     Url = (string)c.Attribute("Url")
+                 })
+                 .ToList<BootstrapComponent>();
+        }
     }
 }
