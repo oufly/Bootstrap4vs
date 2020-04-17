@@ -1,4 +1,4 @@
-# Welcome to Bootstrap4vs
+# Bootstrap4vs extension
 ![Preview](https://github.com/oufly/Bootstrap4vs/blob/master/Bootstrap4vs/logo.png)
 
 This repository contains the code source of Bootstrap4vs snippets extension, +100 snippets of twitter Bootstrap 4 components for Visual Studio.
