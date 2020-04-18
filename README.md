@@ -6,7 +6,7 @@ This repository contains the code source of Bootstrap4vs snippets extension, +10
 this extension covers absolutely all components of Bootstrap 4 with several examples per component, it will allow you to code faster and rather focus on your code.
 
 ## Snippets list
-https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsListing.md
+https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md
 
 ![Preview](https://github.com/oufly/Bootstrap4vs/raw/master/Bootstrap4vs/preview.png)
 

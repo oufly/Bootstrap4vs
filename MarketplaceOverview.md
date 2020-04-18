@@ -2,7 +2,7 @@
 
 This extension covers absolutely all components of Bootstrap 4 with several examples per component, it will allow you to code faster and rather focus on your code. 
 
-[Source code](https://github.com/oufly/Bootstrap4vs) | [Snippets list](https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsListing.md) | [Report bug or suggestion](https://github.com/oufly/Bootstrap4vs/issues) 
+[Source code](https://github.com/oufly/Bootstrap4vs) | [Snippets list](https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md) | [Report bug or suggestion](https://github.com/oufly/Bootstrap4vs/issues) 
 
 ![Preview](preview.png)
 
