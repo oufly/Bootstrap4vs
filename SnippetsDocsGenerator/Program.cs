@@ -5,7 +5,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace SnippetsListing
+namespace SnippetsDocsGenerator
 {
     class Program
     {
@@ -43,7 +43,7 @@ namespace SnippetsListing
                 var html = pageHeading + SnippetsListToHtmlTable(components);
 
                 Console.WriteLine("********** Writing html to file **********");
-                var path = $"{slnDir}\\SnippetsListing.md";
+                var path = $"{slnDir}\\SnippetsDocs.md";
                 File.WriteAllText(path, html);
 
                 Console.WriteLine("\n\n********** Done **********");
