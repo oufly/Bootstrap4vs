@@ -38,13 +38,20 @@ namespace SnippetsDocsGenerator
                 }
                 Console.WriteLine($"\n{snippetsCount} snippets");
 
-                Console.WriteLine("\n********** Extarting html **********");
+                Console.WriteLine("\n********** Generate SnippetsDocs.md html **********");
+
                 var pageHeading = "## Bootstrap4vs snippets list\n\n";
                 var html = pageHeading + SnippetsListToHtmlTable(components);
+                Console.WriteLine("********** Writing html to SnippetsDocs.md file **********");
+                var snippetsDocsFilepath = $"{slnDir}\\SnippetsDocs.md";
+                File.WriteAllText(snippetsDocsFilepath, html);
 
-                Console.WriteLine("********** Writing html to file **********");
-                var path = $"{slnDir}\\SnippetsDocs.md";
-                File.WriteAllText(path, html);
+                Console.WriteLine("\n********** Generate ComponentsList.md html **********");
+
+                var componentsHtmlTable =  BootstrapComponent.ComponentsListToHtmlTable(components);
+                Console.WriteLine("********** Writing html to ComponentsList.md file **********");
+                var componentsListFilepath = $"{slnDir}\\ComponentsList.md";
+                File.WriteAllText(componentsListFilepath, componentsHtmlTable);
 
                 Console.WriteLine("\n\n********** Done **********");
             }
@@ -152,6 +159,26 @@ namespace SnippetsDocsGenerator
                      Url = (string)c.Attribute("Url")
                  })
                  .ToList<BootstrapComponent>();
+        }
+        public static string ComponentsListToHtmlTable(List<BootstrapComponent> components)
+        {
+            string newLine = Environment.NewLine;
+            string table = "<table>" + newLine;
+            table += "<tr><th>Bootstrap Component</th><th>Snippets</th></tr>" + newLine;
+            foreach (var c in components)
+            {
+                table += "<tr>";
+
+                table += $"<td align=\"center\">{c.Name}</td><td><i>";
+                foreach (var s in c.Snippets)
+                {
+                    table += $"{s.Title} | ";
+                }
+                table = table.Remove(table.Length - 2);
+                table += "</i></td></tr>" + newLine;
+            }
+            table += "</table>";
+            return table;
         }
     }
 }
