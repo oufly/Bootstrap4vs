@@ -1,5 +1,5 @@
 <table>
-<tr><th>Bootstrap Component</th><th>Snippets</th></tr>
+<tr><th>Component</th><th>Snippets</th></tr>
 <tr><td align="center">Alert</td><td><a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert">Alert</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert-closable">Alert closable</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert-paragraph">Alert paragraph</a></td></tr>
 <tr><td align="center">Badge</td><td><a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-badge">Badge</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-badge-link">Badge link</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-badge-pill">Badge pill</a></td></tr>
 <tr><td align="center">Breadcrumb</td><td><a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-breadcrumb">Breadcrumb</a></td></tr>
