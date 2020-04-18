@@ -29,12 +29,13 @@ namespace SnippetsDocsGenerator
                 {
                     Console.WriteLine($"---------- {component.Name} ----------");
                     var componentDir = Path.Combine(snippetsDir, component.Directory);
-                    foreach (string snippetFilepath in Directory.EnumerateFiles(componentDir, "*.snippet", SearchOption.AllDirectories))
+                    foreach (string snippetFilepath in Directory.EnumerateFiles(componentDir, "*.snippet", SearchOption.AllDirectories).OrderByDescending(filename => filename))
                     {
                         Console.WriteLine($"{Path.GetFileName(snippetFilepath)}");
                         component.Snippets.Add(Snippet.GetSnippetFromFile(snippetFilepath));
                         snippetsCount++;
                     }
+                    component.Snippets.OrderBy(s => s.Title);
                 }
                 Console.WriteLine($"\n{snippetsCount} snippets");
 
