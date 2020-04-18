@@ -91,7 +91,7 @@ namespace SnippetsDocsGenerator
                 int i = 0;
                 foreach (var s in c.Snippets)
                 {
-                    table += "<tr>";
+                    table += $"<tr id=\"{s.Shortcut}\">";
                     if (i == 0)
                         table += $"<td rowspan=\"{c.Snippets.Count}\"><a href=\"{c.Url}\">{c.Name}</a></td>";
 
@@ -174,6 +174,7 @@ namespace SnippetsDocsGenerator
         }
         public static string ComponentsListToHtmlTable(List<BootstrapComponent> components)
         {
+            const string docsUrl = "https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/";
             string newLine = Environment.NewLine;
             string table = "<table>" + newLine;
             table += "<tr><th>Bootstrap Component</th><th>Snippets</th></tr>" + newLine;
@@ -181,13 +182,13 @@ namespace SnippetsDocsGenerator
             {
                 table += "<tr>";
 
-                table += $"<td align=\"center\">{c.Name}</td><td><i>";
+                table += $"<td align=\"center\">{c.Name}</td><td>";
                 foreach (var s in c.Snippets)
                 {
-                    table += $"{s.Title} | ";
+                    table += $"<a href=\"{docsUrl}#{s.Shortcut}\">{s.Title}</a> | ";
                 }
-                table = table.Remove(table.Length - 2);
-                table += "</i></td></tr>" + newLine;
+                table = table.Remove(table.Length - 3);
+                table += "</td></tr>" + newLine;
             }
             table += "</table>";
             return table;
