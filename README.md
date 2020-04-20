@@ -18,7 +18,7 @@ this extension covers absolutely all components of Bootstrap 4 with several exam
 ## How to install
 https://marketplace.visualstudio.com/items?itemName=ouali-amar.bootstrap4vs
 
-## Snippets List
+## Snippets list
 <table>
 <tr><th>Component</th><th>Snippets</th></tr>
 <tr><td align="center">Alert</td><td><a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert">Alert</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert-closable">Alert closable</a> | <a href="https://github.com/oufly/Bootstrap4vs/blob/master/SnippetsDocs.md/#b-alert-paragraph">Alert paragraph</a></td></tr>
